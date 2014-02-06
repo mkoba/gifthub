@@ -119,9 +119,16 @@ body {
   height: 100px;
   width: 200px;
   padding: 10px 16px;
-  font-size: 16px;
-  line-height: 1.33;
+  font-size: large;
+  line-height: auto;
   border-radius: 5px;
+  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  white-space: pre-wrap;       /* css-3 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  word-break: break-all;
+  white-space: normal;
 }
 
 select.input-xlg {
@@ -131,5 +138,6 @@ select.input-xlg {
 
 textarea.input-xlg {
   height: auto;
-  width: 100px;
+  width: 200px;
+  word-wrap: break-word;
 }

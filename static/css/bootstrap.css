@@ -2050,9 +2050,10 @@ fieldset[disabled] .checkbox-inline {
 .input-sm {
   height: 30px;
   padding: 5px 10px;
+  width: 200px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 select.input-sm {
@@ -2067,7 +2068,7 @@ textarea.input-sm {
 .input-lg {
   height: 46px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: large;
   line-height: 1.33;
   border-radius: 6px;
 }
