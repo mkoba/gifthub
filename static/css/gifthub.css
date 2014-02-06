@@ -88,9 +88,9 @@ body {
      font-size: medium;
      font-weight:normal;
      font-style:normal;
-     height:60px;
-     padding-top: 1%;
-     padding-bottom: 1%;
+     height:100%;
+     padding-top: 2%;
+     padding-bottom: 2%;
      line-height:50%;
      width:120px;
      text-decoration:none;
