@@ -14,6 +14,7 @@
 body {
      /*border: 1px dotted gray;*/
      padding: 20px;
+     background-image: url("../images/gplaypattern.png");
 }
 
 .screen{
@@ -22,21 +23,9 @@ body {
      background: none;
      margin-left: auto;
      margin-right: auto;
-     padding-top: 15%;
-     padding-bottom: 15%;
+     margin-top: auto;
+     margin-bottom: auto;
      vertical-align: middle;
-}
-
-.screen:after {
-     content: "";
-     background: url("../images/IMG_0322.JPG");
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     opacity: 0.2;
-     position: absolute;
-     z-index: -1;   
 }
 
 .jumbotron {
