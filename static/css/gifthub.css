@@ -88,9 +88,11 @@ body {
      font-size: medium;
      font-weight:normal;
      font-style:normal;
-     height:55px;
+     height:100%;
+     padding-top: 1%;
+     padding-bottom: 1%;
      line-height:50%;
-     width:131px;
+     width:120px;
      text-decoration:none;
      text-align:center;
 }.submitButton:hover {
