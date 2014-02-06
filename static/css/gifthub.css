@@ -136,3 +136,10 @@ textarea.input-xlg {
   height: auto;
   word-wrap: break-word;
 }
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
