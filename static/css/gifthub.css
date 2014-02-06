@@ -122,6 +122,16 @@ body {
   font-size: large;
   line-height: auto;
   border-radius: 5px;
+  word-wrap: break-word;  
+}
+
+.test{
+     height: 100px;
+  width: 200px;
+  padding: 10px 16px;
+  font-size: large;
+  line-height: auto;
+  border-radius: 5px;
   word-wrap: break-word;
 }
 
