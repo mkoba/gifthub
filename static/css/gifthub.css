@@ -1,0 +1,92 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     /*border: 1px dotted gray;*/
+     padding: 20px;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+.jumbotron p.active {
+     color: #1f6ddd;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/IMG_0322.JPG");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;	
+}
+
+.jumbotron p {
+     color: #6e6e6e;
+}
+
+.project a {
+     text-align: center;
+}
+
+.backButton{
+     background-image: url("../images/back.gif");
+     background-repeat: no-repeat;
+     background-color: transparent;
+     height: 66px;
+     width: 182px;
+     border: none;
+}
+
+.submitButton {
+     -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+     -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+     box-shadow:inset 0px 1px 0px 0px #ffffff;
+     background-color:transparent;
+     -webkit-border-top-left-radius:0px;
+     -moz-border-radius-topleft:0px;
+     border-top-left-radius:0px;
+     -webkit-border-top-right-radius:0px;
+     -moz-border-radius-topright:0px;
+     border-top-right-radius:0px;
+     -webkit-border-bottom-right-radius:0px;
+     -moz-border-radius-bottomright:0px;
+     border-bottom-right-radius:0px;
+     -webkit-border-bottom-left-radius:0px;
+     -moz-border-radius-bottomleft:0px;
+     border-bottom-left-radius:0px;
+     text-indent:0;
+     border:1px solid #999999;
+     display:inline-block;
+     color:#666666;
+     font-family:Georgia;
+     font-size:15px;
+     font-weight:bold;
+     font-style:normal;
+     height:95px;
+     line-height:95px;
+     width:125px;
+     text-decoration:none;
+     text-align:center;
+     text-shadow:1px 1px 0px #ffffff;
+}.submitButton:active {
+     position:relative;
+     top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
