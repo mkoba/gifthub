@@ -19,8 +19,13 @@
 </head>
 
 <body>
+	<form>	
+			<button type="button" class="btn" onClick="history.go(-1);return true;">
+				<span class="glyphicon glyphicon-arrow-left"></span>
+			</button>
+	</form>
 	<div class="screen">
-		<h1>Enter Event Code</h1>
+		<h1 class="headerbox">Create Event</h1>
 		<form>
 			<input class="input-sm" type="text" placeholder="Event Name" required>
 		</form>
@@ -28,19 +33,11 @@
 			<input class="input-sm" type="text" placeholder="Event Date" required>
 		</form>
 		<form>
-			<textarea rows="10" cols="30">Enter event description here.
+			<input class="input-xlg" type="text" placeholder="Enter event description here.">
 			</textarea>
 		</form>
 		<form action="event-created.html">
-			<button type="submit" class="btn">Next</button>
-		</form>
-
-		<br>
-		<br>
-		<form>	
-			<button type="button" class="btn" onClick="history.go(-1);return true;">
-				<span class="glyphicon glyphicon-arrow-left"></span>
-			</button>
+			<button type="submit" class="submitButton">Next</button>
 		</form>
 	</div>
 </body>
