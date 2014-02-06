@@ -14,7 +14,8 @@
 body {
      /*border: 1px dotted gray;*/
      padding: 20px;
-     background-image: url("../images/gplaypattern.png");
+     background-image: url("../images/bow.jpg");
+     background-repeat:no-repeat;
 }
 
 .screen{
