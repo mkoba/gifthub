@@ -68,7 +68,7 @@ body {
 }
 
 .submitButton {
-     background-color:transparent;
+     background-color:#bf3030;
      -webkit-border-top-left-radius:5px;
      -moz-border-radius-topleft:5px;
      border-top-left-radius:5px;
@@ -82,22 +82,22 @@ body {
      -moz-border-radius-bottomleft:5px;
      border-bottom-left-radius:5px;
      text-indent:0;
-     border:2px solid gray;
+     border:2px solid #ffffff;
      display:inline-block;
-     color:gray;
-     font-family:Arial;
-     font-size: medium;
+     color:#ffffff;
+     text-transform: lowercase;
+     font-size: large;
      font-weight:normal;
      font-style:normal;
      height:100%;
-     padding-top: 4%;
-     padding-bottom: 4%;
+     padding-top: 10%;
+     padding-bottom: 10%;
      line-height:50%;
-     width:120px;
+     width:100%;
      text-decoration:none;
      text-align:center;
 }.submitButton:hover {
-     background-color:#e9e9e9;
+     background-color:#a60000;
 }.submitButton:active {
      position:relative;
      top:1px;
@@ -106,7 +106,7 @@ body {
 .headerbox {
     /* absolute center .splash within .splash-container */
     color: gray;
-    border: 3px solid gray;
+    border: 2px solid #bf3030;
     padding: 1em 1.6em;
     border-radius: 5px;
     line-height: 1em;
