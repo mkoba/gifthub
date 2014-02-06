@@ -21,14 +21,17 @@
 <body>
 	<div class="jumbotron">
 		<h1>Enter Event Code</h1>
-		<form method="get" action="event.html">
-			<textarea name="eventCode" cols="60" rows="2">
-			</textarea>
-			<input class="submitButton" type="submit" name="Go To Event" value="Go To Event"/>
+		<form action="event.html">
+			<fieldset>
+			<input class="input-large" type="text" placeholder="Event Code" required>
+			<button type="submit" class="btn">Go To Event</button>
 		</form>
 		<br>
-		<form>
-			<input class="backButton" type="button" onClick="history.go(-1);return true;">
+		<br>
+		<form>	
+			<button type="button" class="btn" onClick="history.go(-1);return true;">
+				<span class="glyphicon glyphicon-arrow-left"></span>
+			</button>
 		</form>
 	</div>
 </body>
