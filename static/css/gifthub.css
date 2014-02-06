@@ -85,12 +85,14 @@ body {
      display:inline-block;
      color:gray;
      font-family:Arial;
-     font-size:20px;
+     font-size: medium;
      font-weight:normal;
      font-style:normal;
-     height:55px;
+     height:60px;
+     padding-top: 1%;
+     padding-bottom: 1%;
      line-height:50%;
-     width:131px;
+     width:120px;
      text-decoration:none;
      text-align:center;
 }.submitButton:hover {
@@ -105,11 +107,11 @@ body {
     color: gray;
     border: 3px solid gray;
     padding: 1em 1.6em;
-    font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
     text-align: center;
     text-transform: uppercase;
+    font-size: large;
     font-weight: 300;
 }
 
