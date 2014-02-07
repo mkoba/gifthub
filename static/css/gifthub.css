@@ -58,7 +58,7 @@ body {
 }
 
 .backButton{
-     background-image: url("../images/octocat-large-transparent.png");
+     background-image: url("../images/octocat-transparent.png");
      background-repeat: no-repeat;
      background-color: transparent;
      height: 66px;
