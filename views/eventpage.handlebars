@@ -25,7 +25,20 @@
 	</form>
 	<div class="screen">
 		<h1 class="headerbox"> event goes here </h1>
-		<div class="idea">
+
+		{{#each friends}}
+			<div class="idea">
+				<img src="{{image}}" class="image">
+				<form action="idea.html">
+					<button type="submit" class="submitButton">{{name}}</button>
+					<p>{{date}}</p>
+					<p>{{description}}</p>
+				</form>
+				<hr>
+			</div>
+		{/each}}
+
+		<!-- <div class="idea">
 				<img src="images/laptop.png" class="image">
 				<form action="idea.html">
 					<button type="submit" class="submitButton">Idea #1</button>
@@ -38,7 +51,9 @@
 					<button type="submit" class="submitButton">Idea #2</button>
 				</form>
 				<hr>
-		</div>
+		</div> -->
+
+
 		<br>
 		<form action="/submitidea">
 				<button type="submit" class="submitButton">Submit Idea</button>

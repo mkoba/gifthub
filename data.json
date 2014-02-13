@@ -1,9 +1,10 @@
 {
 	"events": [
 		{
-			"name": "Mari Wants Cookies",
+			"name": "Mari Wants a Laptop",
 			"date": "April 5",
-			"description": "Mari is the hungry and wants cookies"
+			"description": "Mari needs a laptop for school",
+			"image": "images/laptop.png"
 		}
 	]
 }
