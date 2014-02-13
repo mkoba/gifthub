@@ -32,5 +32,19 @@
 					"image": "images/wine.png"
 				}
 			]
+	},
+	"pO1lM4":
+	{
+		"title" : "Leon's Christmas Gift",
+		"date" : "December 24",
+		"description" : "Christmas time!!",
+		"idea": [
+			{
+				"name": "Laptop",
+				"price": "$$$$",
+				"description": "Macs > PC",
+				"image": "images/laptop.png"
+			}
+		]
 	}
 }
