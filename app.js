@@ -45,7 +45,7 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/index', index.view);
+app.get('/', index.view);
 app.get('/home', home.view);
 app.get('/createevent', createevent.view);
 app.get('/eventcode', eventcode.view);
