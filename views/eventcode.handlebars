@@ -27,9 +27,9 @@
 		<br>
 		<h1 class="headerbox">Enter Event Code</h1>
 		<br>
-		<form action="/eventpage">
+		<form id="eventcodeform" role="form" method="get" action="/eventpage">
 			<fieldset>
-			<input class="input-lg" type="text" placeholder="Event Code" required>
+			<input class="input-lg" type="text" placeholder="Event Code" required id="eventcode" name="eventcode">
 			<br><br>
 			<button type="submit" class="submitButton">Go to Event</button>
 		</form>

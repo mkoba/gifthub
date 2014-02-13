@@ -26,14 +26,12 @@
 	<div class="screen">
 		<h1 class="headerbox">Event Created</h1>
 		<form>
-			Event Code:  <input class="input-sm" type="text" value="wM4Ef5"/>
-		</form>
-		<br>
-		<form>
 			Direct Link: <input class="input-sm" type="text" value="http://bit.ly/1nepl25">
 		</form>
 		<br>
-		<form action="/eventpage">
+		<form id="eventcodeform" role="form" method="get" action="/eventpage">
+			Event Code:  <input class="input-sm" type="text" value="wM4Ef5" id="eventcode" name="eventcode"/>
+			<br>
 			<button type="submit" class="submitButton">Go to Event!</button>
 		</form>
 	</div>
