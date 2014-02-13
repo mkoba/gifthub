@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>GiftHub</title>	
+	<title>GiftHub: Create an Event!</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,19 +19,28 @@
 </head>
 
 <body>
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div class="screen">
-			<h1 class="headerbox">GiftHub</h1>
-			<img src="images/octocat-large-transparent.png" class="image">
-			<br>
-			<form action="/createevent">
-				<button class="submitButton" id="create">Create Event</button>
-			</form>
-			<br>
-			<form action="/eventcode">
-				<button class="submitButton" id="eventCode">Enter Event Code</button>
-			</form>
-		</div>
+	<form>	
+		<button type="button" class="backButton" onClick="location.href='/home'">
+		</button>
+	</form>
+	<div class="screen">
+		<h1 class="headerbox">Create Event</h1>
+		<form>
+			<input class="input-lg" type="text" placeholder="Name" required>
+		</form>
+		<form>
+			<input class="input-lg" type="text" placeholder="Date" required>
+		</form>
+		<form>
+			<input class="input-lg" type="text" placeholder="Description">
+			</textarea>
+		</form>
+		<form action="/eventcreated">
+			<button type="submit" class="submitButton">Next</button>
+		</form>
+		<form action="/home">
+			<button type="submit" class="cancelButton">Cancel</button>
+		</form>
+	</div>
 </body>
 </html>
